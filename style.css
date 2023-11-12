@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+}
+
+.header ul li {
+    font-size: 26px;
+    padding: 10px 30px
+}
+.header i{
+    margin-top: 20px;
+}
+
+.get-btn {
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: green;
+    margin-right: 20px;
+    padding: 13px;
+    background-color: orange;
+}
+
+.signin-btn {
+    border-radius: 12px;
+    border:none;
+    font-size: 22px;
+    color:  black;
+    margin-left: 30px;
+    padding: 13px 50px;
+    background-color: transparent;
+    
+}
+.welcome{
+    background-color: rgb(71, 198, 71);
+    padding: 80px;
+}
+.welcome h1{
+    color: white;
+        padding: 20px 40px;
+        font-size: 3em;
+        margin-left: 5em;
+}
+.view-btn {
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: green;
+    margin-left:25em;
+    padding: 13px;
+    background-color: orange;
+}
+
+
+.mission{
+    padding: 60px;
+    margin-left: 20em;
+}
+.mission span{
+    color: green;
+}
+.mission h1{
+    color: #074907;
+}
+.help-btn {
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    margin-left: 40em;
+    padding: 13px;
+    background-color: green;;
+}
+.culture{
+    padding: 8px 30px;
+    margin-left: 7em;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.culture{
+    padding: 10px 100px;
+}
+.culture h6{
+    color: #31E731;
+    /* margin-right: 230px; */
+
+}
+.culture h2{
+    color: #054D05;
+}
+.culture p{
+    margin-top: 10px;
+}
+.parent img {
+    width: 300px;
+    height: 300px;
+
+    border-radius: 50%;
+    
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px; 
+}
+
+    
+.sustainability span{
+    color: green;
+}
+.sustainability h1{
+    color: #064306;
+}
+.sustainability {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.sustainability img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    
+    border: 28pxpx solid black;
+  
+}
